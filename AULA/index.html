@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Head é a configuração da página -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alguma Coisa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- Body é onde os elementos que aparecem na tela estão -->
+<body style="padding-bottom: 500px">
+    <header>
+        <h4>Minha marca</h4>
+        <nav>
+            <a href="a">Home</a>
+            <a href="b">Blog</a>
+        </nav>
+       
+     </header>
+    <!-- Tags de texto -->
+    <main>
+        <h1>Algum Título</h1>
+        <p>Aqui eu posso escrever um texto maior.</p>
+        <h2>Outro título</h2>
+        <h6>Mais um título</h6>
+        <p>Eu tenho um texto e <strong>isso é importante.</strong></p>
+        <p>Eu tenho um texto e <em>isso é importante.</em></p>
+        <p>Eu tenho um texto e <u>isso é importante.</u></p>
+        <!--Imagens e links-->
+        <img src="imagem.jpg" alt="Corujinha" height="500px"/>
+        <p>
+        <a href="https://www.google.com">Google</a>
+        </p>
+        <p>
+        <!-- O atributo target ="_blank", faz com que o link abra em 
+        uma nova aba. -->
+        <a href="https://github.com/PedroWChaves/html-e-css" target="_blank">Aula no GitHub</a>
+        </p>
+    </main>
+    <!-- Listas -->
+    <h2 id="meu-titulo">To do List:</h2>
+    <ul>
+        <li class="item">Lavar o cabelo</li>
+        <li class="item">Comprar jornal</li>
+        <li class="item">Estudar prog</li>
+        <li class="item">Ir à academia</li>
+    </ul>
+    <h2>Ordem dos produtos na lavagem:</h2>
+    <ol>
+        <li>Pré-poo;</li>
+        <li>Shampoo;</li>
+        <li>Máscara de tratamento;</li>
+        <li class="dif">Condicionador;</li>
+        <li>Leave-in;</li>
+        <li>Reparador de pontas.</li>
+    </ol>
+    <!--Tabelas-->
+    <table>
+        <!-- tr são as linhas da tabela
+             th são as colunas títulos (cabeçalho)
+             td são as colunas normais (de dados) -->
+        <tr>
+            <th>Nome: </th>
+            <th>Profissão: </th>
+        </tr>
+        <tr>
+            <td>Thays </td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Vanessa  </td>
+            <td>Empresária </td>
+        </tr> 
+    </table>
+    <!-- Formulários -->
+    <h2>Formulário</h2>
+    <form>
+        <label>Sabor de suco:</label>
+        <input type="text" name="sabor_de_suco" placeholder="Digite o sabor do suco"/>
+        <br><br>
+        <textarea placeholder="Deixe um comentário"></textarea>
+        <br><br>
+        <select name="sabor_de_suco">
+            <option>Morango</option>
+            <option>Abacaxi</option>
+            <option>Uva</option>
+        </select>
+        <!-- Formas de criar botão de envio -->
+        <br>
+        <input type="submit" value="Enviar">
+        <button type="submit">Enviar</button>
+    </form>
+    <!-- Atributos comuns
+    alt - atributo de acessibilidade para imagens
+    class - quando quero que um estilo de css se repita a vários elementos
+    id - quando quero um estilo especifico para um (unico) elemento 
+    name - para especificar o que é o input
+    type - define o tipo do dado
+    action - para onde vou enviar o formulario
+    method - POST E GET(enviar dados ou resgatar do servidor)
+    placeholder - mostra no campo o que deve ser preenchido -->
+
+    <!-- Elementos de bloco -->
+    <div>
+        <h3>Algum texto</h3>
+        <p>Algum conteúdo</p>
+    </div>
+    <!--Header fica no topo pois é o cabeçalho
+        nav para barra de navegação
+        main - conteúdo principal 
+        footer - rodapé-->
+        <a href="https://www.google.com" target="_blank">
+            <img src="carro.jpg" alt="homem dirigindo um conversível." height="500px"/>
+            
+        </a>
+    
+    <footer>
+        <p>@ athaymcl.</p>
+    </footer>
+</body>
+</html>
